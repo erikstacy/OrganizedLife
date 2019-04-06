@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/monthday_title_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorContentText"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/monthday_eventone_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorContentText"
+            />
+
+        <TextView
+            android:id="@+id/monthday_eventtwo_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorContentText"
+            />
+
+        <TextView
+            android:id="@+id/monthday_eventthree_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorContentText"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

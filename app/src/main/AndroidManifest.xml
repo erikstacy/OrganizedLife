@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.organizedlife.estacy.organizedlife">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ol_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ol_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NoteActivity" />
+        <activity android:name=".ToDoActivity" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".EditEventActivity" />
+        <activity android:name=".DayActivity" />
+        <activity android:name=".EditDayActivity" />
+        <activity android:name=".MonthActivity" />
+        <activity android:name=".GeneralNoteActivity" />
+        <activity android:name=".GeneralNoteListActivity" />
+        <activity android:name=".MonthTodoActivity" />
+        <activity android:name=".EditMonthActivity" />
+        <activity android:name=".MonthDayActivity" />
+        <activity android:name=".EditMonthDayActivity" />
+        <activity android:name=".NestedNoteActivity" />
+        <activity android:name=".NestedNoteListActivity"></activity>
+    </application>
+
+</manifest>

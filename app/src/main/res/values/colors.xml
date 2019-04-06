@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- BLUE THEME
+    -->
+    <color name="colorPrimary">#afd2ff</color>
+    <color name="colorPrimaryDark">#002453</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorAccentText">#ffffff</color>
+    <color name="colorContentText">#000000</color>
+
+
+    <!-- RED THEME
+    <color name="colorPrimary">#464646</color>
+    <color name="colorPrimaryDark">#1d1d1d</color>
+    <color name="colorAccent">#f1523f</color>
+    <color name="colorAccentText">#f1523f</color>
+    <color name="colorContentText">#ffffff</color>
+    -->
+
+
+</resources>
