@@ -27,7 +27,7 @@
             android:layout_marginLeft="15dp"
             android:gravity="center_vertical"
             android:paddingBottom="1dp"
-            android:textColor="@color/colorAccentText"
+            android:textColor="@color/colorContentText"
             />
 
         <TextView
